@@ -1,6 +1,5 @@
 let mybutton = document.querySelector("button");
 
-mybutton.addEventListener("click", buttontest());
-function buttontest() {
-    alter("按钮尝试");
-};
+mybutton.addEventListener("click", () => {
+    alert("按钮尝试");
+});
